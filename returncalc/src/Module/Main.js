@@ -64,13 +64,12 @@ class Main extends React.Component {
       </form>
                </div>
       <div className = "saving">
-      <form>
+      
         <label>
           Persons Saving Factor:
         </label>
         <input  defaultValue = "0" type="number" onChange={e => this.setState({savings: e.target.value})}/>
        
-        </form>
         </div>
        
               
